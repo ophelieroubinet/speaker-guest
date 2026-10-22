@@ -6,11 +6,11 @@ const heroPhoto = document.getElementById("hero-photo");
 
 // Header photos rotate as you move through the quiz
 const PHOTOS = [
-  { src: "images/photo-1.jpg", alt: "Pressed flowers around the words: everything works out for me" },
-  { src: "images/photo-2.jpg", alt: "Pink water lilies with the words: You'll figure it out. You always have." },
-  { src: "images/photo-3.jpg", alt: "Pink roses with the words: Always do it with so much love" },
-  { src: "images/photo-4.jpg", alt: "City street at sunset with the words: Everything works out for you" },
-  { src: "images/photo-5.jpg", alt: "Pink lilies with the words: I was created to create." }
+  { src: "photo-1.jpg", alt: "Pressed flowers around the words: everything works out for me" },
+  { src: "photo-2.jpg", alt: "Pink water lilies with the words: You'll figure it out. You always have." },
+  { src: "photo-3.jpg", alt: "Pink roses with the words: Always do it with so much love" },
+  { src: "photo-4.jpg", alt: "City street at sunset with the words: Everything works out for you" },
+  { src: "photo-5.jpg", alt: "Pink lilies with the words: I was created to create." }
 ];
 const KEYS = ["A", "B", "C", "D", "E", "F"];
 
