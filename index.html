@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speaker Quest</title>
+  <meta name="description" content="One quiz game for every guest speaker session this semester.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Guest Speaker Series · This Semester</p>
+      <h1>Speaker <span>Quest</span></h1>
+      <p class="lede">Every session gets its own tab. Every tab is a game. Beat your best score.</p>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Sessions">
+    <div class="wrap tab-row" id="tabs" role="tablist"></div>
+  </nav>
+
+  <main class="wrap" id="panel" role="tabpanel"></main>
+
+  <footer class="wrap site-footer">
+    <p>Built with Claude Code · Hosted on Vercel · Code on GitHub</p>
+  </footer>
+
+  <!-- sessions.js holds all the quiz content. Add a new session there. -->
+  <script src="sessions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
