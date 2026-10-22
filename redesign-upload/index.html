@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Platforms · Speaker Quest</title>
+  <meta name="description" content="One quiz game for every guest speaker session this semester.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Playfair+Display:wght@400;600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="header-text">
+          <p class="eyebrow">Guest Speaker Series · ESSEC MMD 2026/2027</p>
+          <h1>Digital Platforms</h1>
+          <p class="lede">Every session gets its own tab. Every tab is a game.<br>Prof: Madina KALYAYEVA</p>
+        </div>
+        <div class="photo-frame">
+          <img id="hero-photo" src="images/photo-1.jpg" alt="">
+        </div>
+      </div>
+    </header>
+
+    <div class="flower-strip" aria-hidden="true">
+      <img src="images/flower-1.png" alt="">
+      <img src="images/flower-2.png" alt="">
+      <img src="images/flower-3.png" alt="">
+      <img src="images/flower-4.png" alt="">
+      <img src="images/flower-5.png" alt="">
+      <img src="images/flower-6.png" alt="">
+      <img src="images/flower-7.png" alt="">
+      <img src="images/flower-8.png" alt="">
+    </div>
+
+    <nav class="tabs" aria-label="Sessions">
+      <div class="tab-row" id="tabs" role="tablist"></div>
+    </nav>
+
+    <main class="wrap" id="panel" role="tabpanel"></main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Built with Claude Code · Hosted on Vercel · Code on GitHub</p>
+        <div class="swatches" aria-hidden="true">
+          <span style="background:#dc4f7c"></span>
+          <span style="background:#c42b34"></span>
+          <span style="background:#fce9ab"></span>
+          <span style="background:#fc8a2d"></span>
+          <span style="background:#9e9820"></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- sessions.js holds all the quiz content. Add a new session there. -->
+  <script src="sessions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
